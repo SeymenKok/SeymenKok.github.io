@@ -1,12 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/e63a0d8384.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>SK | Portfolio</title>
 </head>
 <body>
-  
+<!-- Header -->
+<header class="bg-primary">
+    <!-- NavBar -->
+<div class="pt-0 ">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#aboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contactme">Contact Me</a>
+        </li>
+      </ul>
+</div>
+<!-- banner -->
+<div class="banner p-2">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators mb-5">  
+                <a href="#project"><img src="img/icon/double-down-arrow.png" alt=""></a>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner-bg.png" class="d-block w-20" alt="...">
+            <div class="carousel-caption d-none d-md-block mb-5">
+                <h5 class="text-secondary">Seymen Kök</h5>
+                <p>Web Designer</p>
+              </div>
+          </div>      
+</div>
+</header>
+<!-- Main -->
+<main class="mt-5 container">
+    <!-- Project -->
+    <div class="container text-center">
+       <h3  id="project"class="text-primary">Project</h3>
+       <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/img1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/img2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/img3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+      <div class="container text-center mt-5">
+          <h3 id="aboutMe">About Me</h3>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button active" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                  <strong>#1 About Me</strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veniam iusto quia atque eum quae incidunt eligendi ad in sit ipsum natus perspiciatis, rem culpa consectetur nisi voluptas. Illum praesentium quidem saepe perferendis ratione quam at sit officiis ducimus nostrum, dicta earum, nisi ad! Hic consequatur minima itaque accusantium labore?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong>#2 The schools i went to</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis exercitationem hic reiciendis. Labore fuga quae nihil recusandae, impedit tenetur minima!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <strong>#3 Certificates</strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit <a href="#">amet consectetur adipisicing elit.</a> Perferendis deleniti beatae molestias mollitia? Ea perspiciatis, eius inventore eaque, maxime fugit aperiam magnam libero, natus quisquam qui voluptatem deserunt sunt iusto.
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    <!-- Skills -->
+    <div class="container text-center mt-5">
+        <h3 id="skills">SKILLS</h3>
+        <div class="progress m-1">
+            <div class="progress-bar bg-warning text-primary progress-bar-striped progress-bar-animated " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML 70%</div>
+          </div>
+          <div class="progress m-1">
+            <div class="progress-bar bg-info text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS 50%</div>
+          </div>
+          <div class="progress m-1">
+            <div class="progress-bar bg-warning text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JS 10%</div>
+          </div>
+          <div class="progress m-1">
+            <div class="progress-bar bg-secondary text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Bootstrap 30%</div>
+          </div>
+          <div class="progress m-1">
+            <div class="progress-bar bg-danger text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">SASS 5%</div>
+          </div>
+    </div>
+    <!-- Contact Me -->
+             <div class="container mt-5 ">
+              <h1 id="contactme">Contact Me</h1>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="E-Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+              </div> 
+              <div class="input-group">
+                <span class="input-group-text">With textarea</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>               
+             </div>
+             <!-- Social -->
+             <div class="d-flex container justify-content-center mt-5">
+                <div class="p-2">
+                    <a href="https://github.com/SeymenKok"><i class="fa-brands fa-github text-secondary"></i></a>
+                </div>
+                <div class="p-2">
+                    <a href="https://www.linkedin.com/in/seymen-kök-a95b8a233/"><i class="fa-brands fa-linkedin text-secondary"></i></a>
+                </div>
+                <div class="p-2">
+                    <a href="#"><i class="fa-brands fa-instagram-square text-secondary"></i></a>
+                </div>
+                <div class="p-2">
+                    <a href="#"><i class="fa-brands fa-discord text-secondary"></i></a>
+                </div>
+               </div>
+</main>
+<!-- Footer -->
+<footer class="bg-primary mt-3 p-3">
+    <div class="d-flex justify-content-between">
+        <ul class="list-group   list-group-flush">
+            <li class="list-group-item bg-primary text-secondary"><strong>Lorem Ipsum </strong></li>
+            <li class="list-group-item bg-primary text-light">A second item</li>
+            <li class="list-group-item bg-primary text-light">A third item</li>
+            <li class="list-group-item bg-primary text-light">A fourth item</li>
+            <li class="list-group-item bg-primary text-light">And a fifth one</li>
+          </ul>
+          <ul class="list-group   list-group-flush">
+            <li class="list-group-item bg-primary text-secondary"><strong>Lorem Ipsum </strong></li>
+            <li class="list-group-item bg-primary text-light">A second item</li>
+            <li class="list-group-item bg-primary text-light">A third item</li>
+            <li class="list-group-item bg-primary text-light">A fourth item</li>
+            <li class="list-group-item bg-primary text-light">And a fifth one</li>
+          </ul><ul class="list-group   list-group-flush">
+            <li class="list-group-item bg-primary text-secondary"><strong>Lorem Ipsum </strong></li>
+            <li class="list-group-item bg-primary text-light">A second item</li>
+            <li class="list-group-item bg-primary text-light">A third item</li>
+            <li class="list-group-item bg-primary text-light">A fourth item</li>
+            <li class="list-group-item bg-primary text-light">And a fifth one</li>
+          </ul>
+    </div>
+    <hr style="border: 1px solid #fff;">
+    <div class="text-center">
+       <p class="text-secondary">copyright © All Rights Reserved.</p>
+    </div>    
+</footer>
+<!-- Bootstrap JS -->    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
