@@ -19,10 +19,10 @@
           <a class="nav-link text-light" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#aboutMe">About Me</a>
+          <a class="nav-link text-light" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#skills">Skills</a>
+          <a class="nav-link text-light" href="#aboutMe">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#contactme">Contact Me</a>
@@ -34,33 +34,33 @@
       
     <div class="fixed-top mx-3 mt-3">
       <a href="#top">
-        <i class="fa-solid fa-circle-up text-secondary"></i>
+        <!-- <i class="fa-solid fa-circle-up text-secondary"></i> -->
+        <img class="" src="img/icon/up arrow.png" alt="">
       </a>
     </div>
 </div>
 <!-- banner -->
-<!-- <div class="banner p-2">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators mb-5 text-center">  
-                <a href="#project"><img src="img/icon/double-down-arrow.png" alt=""></a>
-                <div class="carousel-caption d-none d-md-block mb-2 text-center">
-                    <h5 class="text-secondary">Seymen Kök</h5>
-                    <p>Web Designer</p>
-                  </div>
-          </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/banner-bg.png" class="d-block w-20 " alt="...">            
-          </div>      
-</div> -->
-<div>
+<div class="row">
+ <div class="col-7">
   <img src="img/banner-bg.png" class="img-fluid" alt="...">
   <div class="carousel-indicators mb-5 text-center">  
     <a href="#project"><img src="img/icon/double-down-arrow.png" alt=""></a>
-    <div class="carousel-caption d-none d-md-block mb-2 text-center">
+    <!-- <div class="carousel-caption d-none d-md-block mb-2 text-center">
         <h5 class="text-secondary"><strong>Seymen Kök</strong></h5>
         <p>Web Designer</p>
-      </div>
+      </div> -->
+  </div>
+ </div>
+ <div class="col-5 align-self-center ">
+   <h4 class="text-white container">Hi, My name is</h5>
+  <p class="container text-white-50"> 
+    <span class="text-secondary"><strong>Seymen</strong></span>   <br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet architecto, eum ex, tenetur omnis culpa maiores asperiores sint perferendis, exercitationem veritatis odit fugit! At numquam quaerat, ducimus nihil, adipisci aperiam ipsa dignissimos.
+  </p>
+  <div class="container">
+    <button type="button" class="btn btn-outline-danger px-5">More...</button>
+  </div>
+ </div>
 </div>
 </header>
 <!-- Main -->
@@ -68,7 +68,7 @@
     <!-- Project -->
     <div class="container text-center ">
       <div>
-      <span id="project" class="d-block p-2 bg-primary text-white border-start rounded"><strong class="text-secondary">Project</strong></span>
+      <span id="project" class="d-block p-2 mb-3 border-bottom border-3 border-primary  rounded-3"><strong class="text-secondary">Project</strong></span>
       </div>
        <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -108,107 +108,116 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- About Me -->
-      <div class="container text-center mt-5">
-        <div class="mb-2">
-          <span id="aboutMe" class="d-block p-2 bg-primary text-white border-start rounded"><strong class="text-secondary">About Me</strong></span>
-          </div>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button active bg-white-50 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
-                  <strong>#1 About Me</strong>
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veniam iusto quia atque eum quae incidunt eligendi ad in sit ipsum natus perspiciatis, rem culpa consectetur nisi voluptas. Illum praesentium quidem saepe perferendis ratione quam at sit officiis ducimus nostrum, dicta earum, nisi ad! Hic consequatur minima itaque accusantium labore?
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed bg-white-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <strong>#2 The schools i went to</strong>
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis exercitationem hic reiciendis. Labore fuga quae nihil recusandae, impedit tenetur minima!
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed bg-white-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <strong>#3 Certificates</strong>
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit <a href="#">amet consectetur adipisicing elit.</a> Perferendis deleniti beatae molestias mollitia? Ea perspiciatis, eius inventore eaque, maxime fugit aperiam magnam libero, natus quisquam qui voluptatem deserunt sunt iusto.
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+    </div>    
     <!-- Skills -->
     <div class="container text-center mt-5">
       <div class="mb-2">
-        <span id="skills" class="d-block p-2 bg-primary text-white border-start rounded"><strong class="text-secondary">SKILLS</strong></span>
+        <span id="skills" class="d-block p-2 border-bottom border-3 border-primary  rounded-3"><strong class="text-secondary">SKILLS</strong></span>
         </div>
-        <div class="progress m-1">
+        <div class="progress m-3">
             <div class="progress-bar bg-warning text-primary progress-bar-striped progress-bar-animated " role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML 70%</div>
           </div>
-          <div class="progress m-1">
+          <div class="progress m-3">
             <div class="progress-bar bg-info text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS 50%</div>
           </div>
-          <div class="progress m-1">
-            <div class="progress-bar bg-warning text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JS 10%</div>
+          <div class="progress m-3">
+            <div class="progress-bar bg-warning text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 20%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">JS 10%</div>
           </div>
-          <div class="progress m-1">
+          <div class="progress m-3">
             <div class="progress-bar bg-secondary text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Bootstrap 30%</div>
           </div>
-          <div class="progress m-1">
-            <div class="progress-bar bg-danger text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 5%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">SASS 5%</div>
+          <div class="progress m-3">
+            <div class="progress-bar bg-success text-primary progress-bar-striped progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">SASS 5%</div>
           </div>
+    </div>
+    <!-- About Me -->
+    <div class="container text-center mt-3">
+      <div class="mb-2">
+        <span id="aboutMe" class="d-block mb-3 p-2 border-bottom border-3 border-primary  rounded-3"><strong class="text-secondary">About Me</strong></span>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button active bg-white-50 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                <strong>#1 About Me</strong>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veniam iusto quia atque eum quae incidunt eligendi ad in sit ipsum natus perspiciatis, rem culpa consectetur nisi voluptas. Illum praesentium quidem saepe perferendis ratione quam at sit officiis ducimus nostrum, dicta earum, nisi ad! Hic consequatur minima itaque accusantium labore?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-white-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong>#2 The schools i went to</strong>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis exercitationem hic reiciendis. Labore fuga quae nihil recusandae, impedit tenetur minima!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-white-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong>#3 Certificates</strong>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Lorem ipsum dolor sit <a href="#">amet consectetur adipisicing elit.</a> Perferendis deleniti beatae molestias mollitia? Ea perspiciatis, eius inventore eaque, maxime fugit aperiam magnam libero, natus quisquam qui voluptatem deserunt sunt iusto.
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
     <!-- Contact Me -->
              <div class="container mt-5 ">
               <div class="mb-2">
-                <span id="contactme" class="d-block p-2 bg-primary text-white border-start rounded text-center"><strong class="text-secondary">Contact Me</strong></span>
+                <span id="contactme" class="d-block p-2 mb-4  border-bottom border-3 border-primary  rounded-3 text-center"><strong class="text-secondary">Contact Me</strong></span>
                 </div>
-              <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">@</span>
-                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="row g-2 m-3">
+                  <div class="col-md">
+                    <div class="form-floating">
+                      <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                      <label for="floatingInputGrid">Email address</label>
+                    </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="form-floating">
+                      <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <option selected>Choose Subject</option>
+                        <option value="1">
+                          Error Reporting
+                        </option>
+                        <option value="2">
+                          suggestion
+                        </option>
+                        <option value="3">
+                          Business offer
+                        </option>
+                      </select>
+                      <label for="floatingSelectGrid">Works with selects</label>
+                    </div>
+                  </div>
+                </div>            
+              <!--  -->
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
               </div>
-              
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="E-Mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2">@example.com</span>
-              </div> 
-              <div class="input-group">
-                <span class="input-group-text">With textarea</span>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                 
+              <div class="text-center mt-4">
+                <button type="button" class="btn btn-outline-danger">Sumbit</button>
               </div>
-             <!-- Social -->
-             <div class="d-flex container justify-content-center mt-5">
-                <div class="p-2">
-                </div>
-                <div class="p-2">
-                    
-                </div>
-                <div class="p-2">
-                    
-                </div>
-                <div class="p-2">
-                    
-                </div>
-               </div>
+             
+              </div>
 </main>
 <!-- Footer -->
-<footer class="bg-primary mt-3 ">
+<footer class="bg-primary ">
     <div class="d-flex m-5 p-5 justify-content-between">
         <ul class="list-group   list-group-flush">
             <li class="list-group-item bg-primary text-secondary"><strong>Social</strong></li>
